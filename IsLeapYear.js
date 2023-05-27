@@ -15,7 +15,6 @@ function isLeapYear(year){
   // years divisible by four are leap years
   const isDivisibleByFour = year % 4 === 0;
 
-  
   return isDivisibleByOneHundred ? isDivisibleByFourHundred : isDivisibleByFour;
 
 }
